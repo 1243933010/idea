@@ -1,0 +1,631 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+					
+				}
+			}
+		}, {
+			"path": "pages/idea/idea",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/question/question",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/attention",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/idea/ideaDetail",
+			"style": {
+				"navigationBarTitleText": "想法详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "white",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "\ue609",
+								"fontSrc": "/static/ttf/font_1776263_bbo7kc4njts/iconfont.ttf",
+								"fontSize": "25px",
+								"float": "right",
+								"color": "black"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/me/fens",
+			"style": {
+				"navigationBarTitleText": "我的粉丝",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/editUser",
+			"style": {
+				"navigationBarTitleText": "修改资料",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#12A6FF",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "完成",
+								"fontSize": "15"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/index/classification/classification",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/index/classification/release",
+			"style": {
+				"navigationBarTitleText": "发布想法",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "发布",
+								"fontSize": "15",
+								"color": "#0EA5FF"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/idea/notificationCenter/notificationCenter",
+			"style": {
+				"navigationBarTitleText": "通知中心",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/commonProblem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#45B7FE",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#45B7FE",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "明细",
+								"fontSize": "15",
+								"color": "#ffffff"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/me/wallet/detail",
+			"style": {
+				"navigationBarTitleText": "钱包明细",
+				"navigationBarBackgroundColor": "#45B7FE",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/footprint/footprint",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "\ue609",
+								"fontSrc": "/static/ttf/font_1776263_bbo7kc4njts/iconfont.ttf",
+								"fontSize": "25px",
+								"float": "right",
+								"color": "black"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/me/favorites/favorites",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/levy/levy",
+			"style": {
+				"navigationBarTitleText": "征贴",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/association/association",
+			"style": {
+				"navigationBarTitleText": "校园协会",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/index/userPage/userPage",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh": false,
+				// "navigationStyle": "custom"
+				"navigationBarBackgroundColor": "#24ADFF",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/index/userPage/hisAttention",
+			"style": {
+				"navigationBarTitleText": "他的关注",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/index/userPage/hisFens",
+			"style": {
+				"navigationBarTitleText": "他的粉丝",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/question/boostExpert/boostExpert",
+			"style": {
+				"navigationBarTitleText": "助推专家",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "\ue740",
+								"fontSrc": "/static/ttf/font_1776263_wj0dx3znpq/iconfont.ttf",
+								"fontSize": "22px",
+								"float": "right",
+								"color": "#1296db"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/question/boostExpert/settleIn/settleIn",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/question/boostExpert/settleIn/settleln-attest/settleln-attest",
+			"style": {
+				"navigationBarTitleText": "专家认证",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#45B7FE",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/question/boostExpert/settleIn/cooperation/cooperation",
+			"style": {
+				"navigationBarTitleText": "合作需求",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#45B7FE",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/login/registered",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/me/myPost/myPost",
+			"style": {
+				"navigationBarTitleText": "我的帖子",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#24ADFF",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "提问",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}, {
+			"path": "pages/question/askQuestions",
+			"style": {
+				"navigationBarTitleText": "提问",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "发布",
+								"fontSize": "28rpx",
+								"float": "right",
+								"color": "#1296db",
+								"fontWeight": "600"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/question/reply",
+			"style": {
+				"navigationBarTitleText": "回答",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "回答",
+								"fontSize": "28rpx",
+								"float": "right",
+								"color": "#1296db",
+								"fontWeight": "600"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/question/detail",
+			"style": {
+				"navigationBarTitleText": "提问",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none", //关闭窗口回弹效果
+				// 	"titleNView": {
+				// 		"buttons": [ //原生标题栏按钮配置,
+				// 			{
+				// 				"text": "去往回答>>",
+				// 				"fontSize": "28rpx",
+				// 				"float": "right",
+				// 				"color": "#1296db",
+				// 				"fontWeight": "600",
+				// 				"width": "180rpx"
+
+				// 			}
+				// 		]
+				// 	}
+				// }
+			}
+
+		}, {
+			"path": "pages/me/commonProblemDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#24ADFF",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+
+		}
+
+	    ,{
+            "path" : "pages/me/Authentication/Authentication",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/question/classification/classification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/cooperation/cooperation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/cooperation/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "想法详情",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "white",
+                "app-plus": {
+                	"bounce": "none", //关闭窗口回弹效果
+                	"titleNView": {
+                		"buttons": [ //原生标题栏按钮配置,
+                			{
+                				"text": "\ue609",
+                				"fontSrc": "/static/ttf/font_1776263_bbo7kc4njts/iconfont.ttf",
+                				"fontSize": "25px",
+                				"float": "right",
+                				"color": "black"
+                			}
+                		]
+                	}
+                }
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/cooperation/classification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/userPage/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#0EA5FF",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/yinsi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隐私权政策",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/xieyi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/setset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隐私保护与说明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#333333",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/index.png",
+				"selectedIconPath": "/static/tabbar/c_index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/idea/idea",
+				"iconPath": "/static/tabbar/idea.png",
+				"selectedIconPath": "/static/tabbar/c_idea.png",
+				"text": "想法"
+			},
+			{
+				"pagePath": "pages/question/question",
+				"iconPath": "/static/tabbar/question.png",
+				"selectedIconPath": "/static/tabbar/c_question.png",
+				"text": "问题"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "/static/tabbar/me.png",
+				"selectedIconPath": "/static/tabbar/c_me.png",
+				"text": "我的"
+			}
+		]
+	}
+}

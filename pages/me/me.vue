@@ -103,6 +103,7 @@
 					// },
 					{
 						name: '分享客户端',
+						url:'share',
 						icon:'../../static/me/share.png'
 					},
 					{
@@ -167,6 +168,37 @@
 			go(item){
 				if(!item.url){
 					this.$toast('暂未开放')
+					return false
+				}
+				if(item.url==='share'){
+					console.log('---')
+					uni.downloadFile({
+							url: encodeURI('https://qingxiaochen.oss-cn-guangzhou.aliyuncs.com/apk/20211204161513.png'),
+							success: (res) =>{
+								console.log(res)
+								if (res.statusCode === 200){
+									uni.saveImageToPhotosAlbum({
+										filePath: res.tempFilePath,
+										success: function() {
+											uni.showToast({
+												title: "保存成功",
+												icon: "none"
+											});
+										},
+										fail: function(err) {
+											console.log(err)
+											uni.showToast({
+												title: "保存失败，请稍后重试",
+												icon: "none"
+											});
+										}
+									});
+								}
+							},
+							fail:(err)=>{
+								console.log(err)
+							}
+						})
 					return false
 				}
 				if(item.url==='logut'){
